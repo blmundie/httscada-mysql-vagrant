@@ -6,4 +6,4 @@ description      "Configure mysql on vagrant"
 version          "0.6"
 
 recipe 'httscada-mysql-vagrant::mysql_setup', 'Set mysql'
-depends 'mysql', '~> 6.0'
+depends 'mysql', '~> 6.1'
